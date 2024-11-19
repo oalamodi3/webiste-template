@@ -1,79 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website Template</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
-        }
-        header h1 {
-            margin: 0;
-            text-align: center;
-            padding-bottom: 10px;
-        }
-        .main-content {
-            background: white;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-        }
-        .footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        @media(max-width: 600px) {
-            .container {
-                width: 100%;
-                padding: 10px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>E-Commerce Store</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>My Website Template</h1>
-        </div>
-    </header>
-
-    <div class="container">
-        <div class="main-content">
-            <h2>Welcome to My Website</h2>
-            <p>This is a simple, responsive website template that you can customize and host on GitHub Pages.</p>
-            
-            <h3>Features:</h3>
-            <ul>
-                <li>Responsive design</li>
-                <li>Clean, minimal layout</li>
-                <li>Easy to customize</li>
-            </ul>
-        </div>
-    </div>
-
-    <footer class="footer">
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">MyStore</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to MyStore</h1>
+      <p>Your one-stop shop for all your needs.</p>
+      <a href="products.html" class="btn">Shop Now</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 MyStore. All rights reserved.</p>
+  </footer>
 </body>
-</html>      
+</html>
